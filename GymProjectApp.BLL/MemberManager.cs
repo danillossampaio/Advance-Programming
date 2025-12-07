@@ -12,7 +12,15 @@ namespace GymProjectApp.BLL
     public class MemberManager
     {
         // Repository instance for database operations
-        private readonly MemberRepository _repo = new MemberRepository();
+        private readonly MemberRepository _repo;
+
+        /// <summary>
+        /// Constructor that receives a MemberRepository instance.
+        /// </summary>
+        public MemberManager(MemberRepository repo)
+        {
+            _repo = repo;
+        }
 
         /// <summary>
         /// Adds a new member to the database after basic validation.

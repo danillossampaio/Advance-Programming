@@ -32,18 +32,5 @@ namespace GymProjectApp.Models
     }
 
     // Enum for membership types to ensure consistency and avoid typos
-    public enum MembershipType
-    {
-        // Monthly membership plan
-        Monthly,
-
-        // Quarterly membership plan (3 months)
-        Quarterly,
-
-        // Semi-annual membership plan (6 months)
-        SemiAnnual,
-
-        // Annual membership plan (12 months)
-        Annual
-    }
+    
 }

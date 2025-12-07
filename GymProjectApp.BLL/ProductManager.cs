@@ -12,45 +12,53 @@ namespace GymProjectApp.BLL
     public class ProductManager
     {
         // Repository instance for database operations
-        private readonly ProductRepository _repo = new ProductRepository();
+        private readonly ProductRepository _repo;
+
+        /// <summary>
+        /// Constructor that receives a ProductRepository instance.
+        /// </summary>
+        public ProductManager(ProductRepository repo)
+        {
+            _repo = repo;
+        }
 
         /// <summary>
         /// Adds a new product to the database after basic validation.
+        /// Returns true if successful, false otherwise.
         /// </summary>
-        public void Add(Product p)
+        public bool Add(Product p)
         {
             if (string.IsNullOrWhiteSpace(p.Name) || p.Price <= 0)
-            {
-                Console.WriteLine("Invalid product data.");
-                return;
-            }
+                return false;
+
             _repo.Insert(p);
+            return true;
         }
 
         /// <summary>
         /// Updates an existing product in the database.
+        /// Returns true if successful, false otherwise.
         /// </summary>
-        public void Update(Product p)
+        public bool Update(Product p)
         {
             if (p.ProductID <= 0)
-            {
-                Console.WriteLine("Invalid product ID.");
-                return;
-            }
+                return false;
+
             _repo.Update(p);
+            return true;
         }
 
         /// <summary>
         /// Deletes a product by its ID.
+        /// Returns true if successful, false otherwise.
         /// </summary>
-        public void Delete(int id)
+        public bool Delete(int id)
         {
             if (id <= 0)
-            {
-                Console.WriteLine("Invalid product ID.");
-                return;
-            }
+                return false;
+
             _repo.Delete(id);
+            return true;
         }
 
         /// <summary>
@@ -60,8 +68,9 @@ namespace GymProjectApp.BLL
 
         /// <summary>
         /// Searches for a product by name (case-insensitive).
+        /// Returns null if not found.
         /// </summary>
-        public Product SearchByName(string name)
+        public Product? SearchByName(string name)
         {
             var products = _repo.GetAll();
             return products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));

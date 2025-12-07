@@ -39,3 +39,4 @@ C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\obj\D
 C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\obj\Debug\net8.0\GymProjectApp.pdb
 C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\obj\Debug\net8.0\GymProjectApp.genruntimeconfig.cache
 C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\obj\Debug\net8.0\ref\GymProjectApp.dll
+C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\obj\Debug\net8.0\GymProjectApp.sourcelink.json

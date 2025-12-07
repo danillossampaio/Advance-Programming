@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.bll\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.bll\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.bll\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.bll\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.dal\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.dal\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.dal\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.dal\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.dal\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.dal\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.bll\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.bll\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.bll\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.bll\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\gymprojectapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:gymprojectapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\models\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:models\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|c:\\users\\danil\\documents\\dbs modules\\advanced programming\\ca\\gymprojectapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD164F8C-F6BE-416D-8F58-3286A01EA7BE}|GymProjectApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,12 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -61,47 +61,51 @@
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MemberManager.cs",
-              "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\MemberManager.cs",
-              "RelativeDocumentMoniker": "MemberManager.cs",
-              "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\MemberManager.cs",
-              "RelativeToolTip": "MemberManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAcAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\MemberManager.cs",
+              "RelativeDocumentMoniker": "GymProjectApp.BLL\\MemberManager.cs",
+              "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\MemberManager.cs",
+              "RelativeToolTip": "GymProjectApp.BLL\\MemberManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T17:00:33.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.DAL\\ProductRepository.cs",
               "RelativeDocumentMoniker": "GymProjectApp.DAL\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.DAL\\ProductRepository.cs",
               "RelativeToolTip": "GymProjectApp.DAL\\ProductRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwBQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T13:48:58.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T13:47:20.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GymProjectApp.csproj",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.csproj",
               "RelativeDocumentMoniker": "GymProjectApp.csproj",
@@ -114,54 +118,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAApwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T16:05:30.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\ProductManager.cs",
               "RelativeDocumentMoniker": "GymProjectApp.BLL\\ProductManager.cs",
               "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\ProductManager.cs",
               "RelativeToolTip": "GymProjectApp.BLL\\ProductManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T16:05:27.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\Member.cs",
-              "RelativeDocumentMoniker": "GymProjectApp.BLL\\Member.cs",
-              "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.BLL\\Member.cs",
-              "RelativeToolTip": "GymProjectApp.BLL\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T16:05:25.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MemberRepository.cs",
               "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.DAL\\MemberRepository.cs",
               "RelativeDocumentMoniker": "GymProjectApp.DAL\\MemberRepository.cs",
               "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\GymProjectApp.DAL\\MemberRepository.cs",
               "RelativeToolTip": "GymProjectApp.DAL\\MemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAiwKYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T16:05:15.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MembershipType.cs",
+              "DocumentMoniker": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\MembershipType.cs",
+              "RelativeDocumentMoniker": "Models\\MembershipType.cs",
+              "ToolTip": "C:\\Users\\danil\\Documents\\DBS Modules\\ADVANCED PROGRAMMING\\CA\\GymProjectApp\\Models\\MembershipType.cs",
+              "RelativeToolTip": "Models\\MembershipType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:59:38.876Z",
               "EditorCaption": ""
             }
           ]
