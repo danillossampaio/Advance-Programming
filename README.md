@@ -6,7 +6,7 @@ How to Run the GymProjectApp C# Repository
 - SQLite Viewer extension (for VS Code) to inspect the products.db file
 
 2. Clone the Repository
-git clone https://github.com/danillosampaio/Advance-Programming.git
+git clone https: //github.com/danillosampaio/Advance-Programming.git
 cd Advance-Programming/GymProjectApp
 
 
