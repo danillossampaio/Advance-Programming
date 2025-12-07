@@ -5,21 +5,33 @@ using GymProjectApp.Models;
 
 namespace GymProjectApp.DAL
 {
+    /// <summary>
+    /// Repository class for managing Member entities in the SQLite database.
+    /// Provides CRUD operations and ensures the Members table exists.
+    /// </summary>
     public class MemberRepository
     {
         private const string DbFile = @"C:\Users\danil\Documents\DBS Modules\ADVANCED PROGRAMMING\CA\GymProjectApp\Database\gym.db";
 
+        /// <summary>
+        /// Initializes a new instance of the MemberRepository class.
+        /// Ensures the Members table exists in the database.
+        /// </summary>
         public MemberRepository()
         {
-            Console.WriteLine($"[MemberRepository] Usando banco: {DbFile}");
+            Console.WriteLine($"[MemberRepository] Using database: {DbFile}");
             EnsureTablesExist();
         }
 
+        /// <summary>
+        /// Inserts a new member into the Members table.
+        /// </summary>
+        /// <param name="m">The Member object to insert.</param>
         public void Insert(Member m)
         {
             if (m == null || string.IsNullOrWhiteSpace(m.Name) || m.Age <= 0)
             {
-                Console.WriteLine("Dados inválidos para membro.");
+                Console.WriteLine("Invalid member data.");
                 return;
             }
 
@@ -38,19 +50,23 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@jd", m.JoinDate.ToString("yyyy-MM-dd"));
 
                 cmd.ExecuteNonQuery();
-                Console.WriteLine("Membro inserido com sucesso.");
+                Console.WriteLine("Member inserted successfully.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao inserir: {ex.Message}");
+                Console.WriteLine($"Error inserting member: {ex.Message}");
             }
         }
 
+        /// <summary>
+        /// Updates an existing member in the Members table.
+        /// </summary>
+        /// <param name="m">The Member object with updated values.</param>
         public void Update(Member m)
         {
             if (m == null || m.MemberID <= 0)
             {
-                Console.WriteLine("Atualização inválida (ID ausente).");
+                Console.WriteLine("Invalid update (missing ID).");
                 return;
             }
 
@@ -71,19 +87,23 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@id", m.MemberID);
 
                 var rows = cmd.ExecuteNonQuery();
-                Console.WriteLine(rows > 0 ? "Membro atualizado." : "Nenhuma linha afetada (verifique o ID).");
+                Console.WriteLine(rows > 0 ? "Member updated." : "No rows affected (check the ID).");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao atualizar: {ex.Message}");
+                Console.WriteLine($"Error updating member: {ex.Message}");
             }
         }
 
+        /// <summary>
+        /// Deletes a member from the Members table by ID.
+        /// </summary>
+        /// <param name="id">The ID of the member to delete.</param>
         public void Delete(int id)
         {
             if (id <= 0)
             {
-                Console.WriteLine("ID inválido para exclusão.");
+                Console.WriteLine("Invalid ID for deletion.");
                 return;
             }
 
@@ -97,14 +117,18 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@id", id);
 
                 var rows = cmd.ExecuteNonQuery();
-                Console.WriteLine(rows > 0 ? "Membro excluído." : "Nenhuma linha afetada (verifique o ID).");
+                Console.WriteLine(rows > 0 ? "Member deleted." : "No rows affected (check the ID).");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao excluir: {ex.Message}");
+                Console.WriteLine($"Error deleting member: {ex.Message}");
             }
         }
 
+        /// <summary>
+        /// Retrieves all members from the Members table.
+        /// </summary>
+        /// <returns>A list of Member objects.</returns>
         public List<Member> GetAll()
         {
             var list = new List<Member>();
@@ -138,12 +162,16 @@ namespace GymProjectApp.DAL
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao recuperar: {ex.Message}");
+                Console.WriteLine($"Error retrieving members: {ex.Message}");
             }
 
             return list;
         }
 
+        /// <summary>
+        /// Ensures the Members table exists in the database.
+        /// Creates the table if it does not already exist.
+        /// </summary>
         private void EnsureTablesExist()
         {
             try
@@ -162,11 +190,11 @@ namespace GymProjectApp.DAL
                     );";
                 cmd.ExecuteNonQuery();
 
-                Console.WriteLine("Tabela Members garantida.");
+                Console.WriteLine("Members table ensured.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao garantir schema: {ex.Message}");
+                Console.WriteLine($"Error ensuring schema: {ex.Message}");
             }
         }
     }

@@ -11,7 +11,7 @@ namespace GymProjectApp.DAL
 
         public ProductRepository()
         {
-            Console.WriteLine($"[ProductRepository] Usando banco: {DbFile}");
+            Console.WriteLine($"[ProductRepository] Using database: {DbFile}");
             EnsureTablesExist();
         }
 
@@ -19,7 +19,7 @@ namespace GymProjectApp.DAL
         {
             if (p == null || string.IsNullOrWhiteSpace(p.Name) || p.Price <= 0 || p.Stock < 0)
             {
-                Console.WriteLine("Dados inválidos para produto.");
+                Console.WriteLine("Invalid product data.");
                 return;
             }
 
@@ -38,11 +38,11 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@s", p.Stock);
 
                 cmd.ExecuteNonQuery();
-                Console.WriteLine("Produto inserido com sucesso.");
+                Console.WriteLine("Product inserted successfully.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao inserir produto: {ex.Message}");
+                Console.WriteLine($"Error inserting product: {ex.Message}");
             }
         }
 
@@ -50,7 +50,7 @@ namespace GymProjectApp.DAL
         {
             if (p == null || p.ProductID <= 0)
             {
-                Console.WriteLine("Atualização inválida (ID ausente).");
+                Console.WriteLine("Invalid update (missing ID).");
                 return;
             }
 
@@ -71,11 +71,11 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@id", p.ProductID);
 
                 var rows = cmd.ExecuteNonQuery();
-                Console.WriteLine(rows > 0 ? "Produto atualizado." : "Nenhuma linha afetada (verifique o ID).");
+                Console.WriteLine(rows > 0 ? "Product updated." : "No rows affected (check the ID).");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao atualizar produto: {ex.Message}");
+                Console.WriteLine($"Error updating product: {ex.Message}");
             }
         }
 
@@ -83,7 +83,7 @@ namespace GymProjectApp.DAL
         {
             if (id <= 0)
             {
-                Console.WriteLine("ID inválido para exclusão.");
+                Console.WriteLine("Invalid ID for deletion.");
                 return;
             }
 
@@ -97,11 +97,11 @@ namespace GymProjectApp.DAL
                 cmd.Parameters.AddWithValue("@id", id);
 
                 var rows = cmd.ExecuteNonQuery();
-                Console.WriteLine(rows > 0 ? "Produto excluído." : "Nenhuma linha afetada (verifique o ID).");
+                Console.WriteLine(rows > 0 ? "Product deleted." : "No rows affected (check the ID).");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao excluir produto: {ex.Message}");
+                Console.WriteLine($"Error deleting product: {ex.Message}");
             }
         }
 
@@ -132,7 +132,7 @@ namespace GymProjectApp.DAL
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao recuperar produtos: {ex.Message}");
+                Console.WriteLine($"Error retrieving products: {ex.Message}");
             }
 
             return list;
@@ -156,11 +156,11 @@ namespace GymProjectApp.DAL
                     );";
                 cmd.ExecuteNonQuery();
 
-                Console.WriteLine("Tabela Products garantida.");
+                Console.WriteLine("Products table ensured.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao garantir schema: {ex.Message}");
+                Console.WriteLine($"Error ensuring schema: {ex.Message}");
             }
         }
     }
